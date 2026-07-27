@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_get_all_songs",
+          "label": "Verify selecting all songs from the song table",
+          "description": "Runs problem1(), which should return all rows from the song table as Song objects. Compares the result to the expected list containing 'Let it be', 'Hotel California', and 'Kashmir'."
+        }
+      ]
+    }
+  ]
+}
